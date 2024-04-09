@@ -12,7 +12,7 @@ a park employee who can enter and exit visitors from the park, with the ability 
 
 - [Installation](#installation)
 - [Documentation](#document)
-- [How to run](#run)
+- [How to run](#how-to-run)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -45,11 +45,11 @@ For instructions on generating JavaDoc files, please refer to the official [Java
 ## How to run
 To run the project the user has to run the [Server Main function](ServerUI.java) of the server first, then run the [Client Main function](ClientUI.java).
 
-- `Server` after running the main function, enter username + password + port: 5555, click on "start server", then click on "import users" and with that the server is set.
-- `Client` after running the main fucntion of server and client, wait until server is started, then write the IP of the server (if local then write "localhost"), wait for users to be imported, then enter using either username + password or an ID.
+- `Server` After running the main function, enter username + password + port: 5555, click on "start server", then click on "Import users" and with that the server is set.
+- `Client` After running the main function of the server and client, wait until the server is started, then write the IP of the server (if local then write "localhost"), wait for users to be imported, then enter using either username + password or an ID.
 
 ## Contributing
-all contributions are not accepted since this is a college project that was create by the students that can be found in the Contact seciton. However, we encourage you to explore the project's codebase to learn and gain insights.
+all contributions are not accepted since this is a college project that was created by the students and can be found in the Contact section. However, we encourage you to explore the project's codebase to learn and gain insights.
 If you're interested in contributing to similar open-source projects, we recommend exploring other repositories on GitHub and getting involved in the open-source community.
 Feel free to reach out to us if you have any questions or need further assistance.
 
