@@ -51,7 +51,7 @@ To run the project the user has to run the [Server Main function](ServerUI.java)
 - `Client` After running the main function of the server and client, wait until the server is started, then write the IP of the server (if local then write "localhost"), wait for users to be imported, then enter using either username + password or an ID.
 
 ## Contributing
-all contributions are not accepted since this is a college project that was created by the students and can be found in the Contact section. However, we encourage you to explore the project's codebase to learn and gain insights.
+all contributions are not accepted since this is a college project that was created by the students and can be found in the Contact section. However, we would like to encourage you to explore the project's codebase to learn and gain insights.
 If you're interested in contributing to similar open-source projects, we recommend exploring other repositories on GitHub and getting involved in the open-source community.
 Feel free to reach out to us if you have any questions or need any more help.
 
@@ -63,10 +63,10 @@ Feel free to reach out to us if you have any questions or need any more help.
 ## Contact
 
 - Ahmad Ataba: [GitHub](https://github.com/Ataba29) [LinkedIn](https://www.linkedin.com/in/ahmad-ataba-08111a270/)
-- Mohammad Khateeb: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
+- Mohammad Khateeb: [GitHub](https://github.com/khalelmnsor) [LinkedIn](https://www.linkedin.com/in/mohammad-khateeb-891332303/)
 - Rami Taha: [GitHub]() [LinkedIn](https://www.linkedin.com/in/rami-taha-234871273/)
 - Ibraheem Jramnh: [GitHub](https://github.com/ibraheemjr21) [LinkedIn](https://www.linkedin.com/in/ibraheem-jr-b9ba86278)
-- Khalel Mnsor: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
+- Khalel Mnsor: [GitHub](https://github.com/khalelmnsor) [LinkedIn](https://www.linkedin.com/in/mnsor-khalel-128535273/)
 - Jad Taha: [GitHub](https://github.com/jaytaa) [LinkedIn](https://www.linkedin.com/in/jad-taha-b1aa23199/)
 - Kareem Zeedan: [GitHub](https://github.com/SharkZeedan) [LinkedIn](https://www.linkedin.com/in/kareem-zeedan-81baab273/)
 
