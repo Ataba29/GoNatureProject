@@ -64,8 +64,8 @@ Feel free to reach out to us if you have any questions or need further assistanc
 - Ahmad Ataba: [GitHub](https://github.com/Ataba29), [LinkedIn](https://www.linkedin.com/in/ahmad-ataba-08111a270/)
 - Mohammad Khateeb: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
 - Rami Taha: [GitHub]() [LinkedIn](https://www.linkedin.com/in/rami-taha-234871273/)
-- Ibraheem Jramnh: [GitHub](https://github.com/ibraheemjr21) [LinkedIn]()
+- Ibraheem Jramnh: [GitHub](https://github.com/ibraheemjr21) [LinkedIn](https://www.linkedin.com/in/ibraheem-jr-b9ba86278)
 - Khalel Mnsor: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
 - Jad Taha: [GitHub](https://github.com/jaytaa) [LinkedIn](https://www.linkedin.com/in/jad-taha-b1aa23199/)
-- Kareem Zeedan: [GitHub](https://github.com/SharkZeedan) [LinkedIn]()
+- Kareem Zeedan: [GitHub](https://github.com/SharkZeedan) [LinkedIn](https://www.linkedin.com/in/kareem-zeedan-81baab273/)
 
