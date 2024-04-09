@@ -61,22 +61,11 @@ Feel free to reach out to us if you have any questions or need further assistanc
 ## Contact
 
 `GitHub`
-- [Ahmad Ataba](https://github.com/Ataba29)
-- [Mohammad Khateeb](https://github.com/khalelmnsor)
-- [Rami Taha]()
-- [Ibraheem Jramnh](https://github.com/ibraheemjr21)
-- [Khalel Mnsor](https://github.com/khalelmnsor)
-- [Jad Taha](https://github.com/jaytaa)
-- [Kareem Zeedan](https://github.com/SharkZeedan)
-
-
-
-`LinkedIn`
-- [Ahmad Ataba](https://www.linkedin.com/in/ahmad-ataba-08111a270/)
-- [Mohammad Khateeb]()
-- [Rami Taha](https://www.linkedin.com/in/rami-taha-234871273/)
-- [Ibraheem Jramnh]()
-- [Khalel Mnsor]()
-- [Jad Taha](https://www.linkedin.com/in/jad-taha-b1aa23199/)
-- [Kareem Zeedan](https://www.linkedin.com/in/kareem-zeedan-81baab273/)
+- Ahmad Ataba: [GitHub](https://github.com/Ataba29), [LinkedIn](https://www.linkedin.com/in/ahmad-ataba-08111a270/)
+- Mohammad Khateeb: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
+- Rami Taha: [GitHub]() [LinkedIn](https://www.linkedin.com/in/rami-taha-234871273/)
+- Ibraheem Jramnh: [GitHub](https://github.com/ibraheemjr21) [LinkedIn]()
+- Khalel Mnsor: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
+- Jad Taha: [GitHub](https://github.com/jaytaa) [LinkedIn](https://www.linkedin.com/in/jad-taha-b1aa23199/)
+- Kareem Zeedan: [GitHub](https://github.com/SharkZeedan) [LinkedIn]()
 
