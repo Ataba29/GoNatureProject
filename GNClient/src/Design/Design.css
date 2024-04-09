@@ -1,0 +1,37 @@
+#acceptButton{
+	-fx-font-size : 13.0;
+	-fx-font-family : "System";
+	-fx-text-fill : "white";
+	-fx-background-color :  #228B22;
+}
+#denyButton{
+	-fx-font-size : 13.0;
+	-fx-font-family : "System";
+	-fx-text-fill : "white";
+	-fx-background-color :   #DC143C;
+}
+#normalButton{
+	-fx-font-size : 13.0;
+	-fx-font-family : "System";
+	-fx-text-fill : "white";
+	-fx-background-color :   #778899;
+}
+#backgroundGui{
+	-fx-background-color :  #263F73;
+}
+#backgroundGui2{
+	-fx-background-color :  #49a09d;
+}
+#labelText{
+	-fx-font-size : 14.0;
+	-fx-font-family : "System";
+	-fx-text-fill : "black";
+}
+#labelTitle{
+	-fx-font-size : 14.0;
+	-fx-font-family : "Verdana";
+	-fx-text-fill : "black";
+}
+#CreportB{
+	-fx-background-color :  #49a09d;
+}

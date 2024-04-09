@@ -1,0 +1,31 @@
+.root {
+	-fx-background-color:linear-gradient(to right, #80c0e8, #272829);
+}
+
+#txtusername {
+	-fx-background-radius: 40px;
+}
+
+#txtpassword {
+	-fx-background-radius: 40px;
+}
+
+#txtport {
+	-fx-background-radius: 40px;
+}
+
+#txtip {
+	-fx-background-radius: 40px;
+}
+
+#btnstart {
+	-fx-background-color:GREEN;
+	-fx-color:#272829;
+	-fx-background-radius: 40px;
+}
+
+#extbttn {
+	-fx-background-color:RED;
+	-fx-color:#272829;
+	-fx-background-radius: 40px;
+}

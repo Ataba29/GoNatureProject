@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CreportB" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parkmanagerGUI.PresentationAreport">
+   <children>
+      <PieChart fx:id="piechart" layoutX="7.0" layoutY="110.0" prefHeight="383.0" prefWidth="781.0" />
+      <Label fx:id="nameparkname" layoutX="347.0" prefHeight="94.0" prefWidth="102.0" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="datemonth" layoutX="95.0" layoutY="35.0" prefHeight="46.0" prefWidth="183.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="35.0" prefHeight="60.0" prefWidth="67.0" text="Date:" underline="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="denyButton" layoutX="21.0" layoutY="549.0" mnemonicParsing="false" onAction="#BackBtn" prefHeight="87.0" prefWidth="148.0" text="Back">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

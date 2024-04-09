@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="CreportB" prefHeight="601.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="departmentManagerGUI.parametercontroller">
+   <children>
+      <AnchorPane layoutX="146.0" layoutY="77.0" prefHeight="103.0" prefWidth="119.0" />
+      <VBox layoutX="107.0" layoutY="55.0" prefHeight="378.0" prefWidth="394.0">
+         <children>
+            <TableView fx:id="myTable" prefHeight="397.0" prefWidth="394.0" />
+         </children>
+      </VBox>
+      <Button fx:id="normalButton" layoutX="14.0" layoutY="562.0" mnemonicParsing="false" onAction="#bake" text="Back" />
+   </children>
+</AnchorPane>

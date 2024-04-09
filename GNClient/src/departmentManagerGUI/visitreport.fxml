@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CreportB" prefHeight="716.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="departmentManagerGUI.visitreportcontroller">
+   <children>
+      <Label fx:id="repomonth" layoutX="5.0" layoutY="23.0" prefHeight="18.0" prefWidth="538.0" stylesheets="@../Design/Design.css" textAlignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <AreaChart fx:id="visitreport" layoutX="14.0" layoutY="67.0" prefHeight="475.0" prefWidth="562.0">
+        <xAxis>
+          <NumberAxis autoRanging="false" side="BOTTOM" tickLabelGap="1.0" tickUnit="1.0" upperBound="31.0" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" tickLabelGap="1.0" tickUnit="1.0" />
+        </yAxis>
+      </AreaChart>
+      <ChoiceBox fx:id="choosemonth" layoutX="181.0" layoutY="620.0" prefWidth="150.0" />
+      <Label fx:id="label" layoutX="4.0" layoutY="583.0" prefHeight="18.0" prefWidth="582.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ChoiceBox fx:id="chooseparkname" layoutX="349.0" layoutY="620.0" prefWidth="150.0" />
+      <Button fx:id="acceptButton" layoutX="513.0" layoutY="620.0" mnemonicParsing="false" onAction="#getmonthreport" text="produce" />
+      <Label fx:id="averagemedian" layoutX="7.0" layoutY="548.0" prefHeight="26.0" prefWidth="591.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choosyear" layoutX="5.0" layoutY="620.0" prefWidth="150.0" />
+      <Button fx:id="normalButton" layoutX="14.0" layoutY="677.0" mnemonicParsing="false" onAction="#bake" text="Back" />
+   </children>
+</AnchorPane>

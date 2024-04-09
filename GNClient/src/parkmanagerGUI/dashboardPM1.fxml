@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parkmanagerGUI.dashboardPMController">
+	<left>
+		<AnchorPane fx:id="backgroundGui" prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER">
+			<children>
+				<Circle fill="#1f93ff00" layoutX="114.0" layoutY="200.0" radius="109.0" stroke="#706c6c" strokeType="INSIDE" />
+				<Label layoutX="46.0" layoutY="162.0" text="Go Nature" textFill="WHITE">
+					<font>
+						<Font name="Verdana Bold" size="24.0" />
+					</font>
+				</Label>
+				<Label layoutX="90.0" layoutY="208.0" text="Park" textFill="#f7f4f4">
+					<font>
+						<Font name="Verdana" size="22.0" />
+					</font>
+				</Label>
+				<Line endX="100.0" layoutX="115.0" layoutY="200.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0">
+					<effect>
+						<DropShadow />
+					</effect>
+				</Line>
+				<Label layoutX="34.0" layoutY="348.0" text="Copyright (c).All Rights Reserved. " textFill="#f7f4f4">
+					<font>
+						<Font name="System Bold" size="10.0" />
+					</font>
+				</Label>
+				<Circle fill="#e2e6e9" layoutX="46.0" layoutY="116.0" radius="18.0" stroke="#928d8d" strokeType="INSIDE" />
+			</children>
+		</AnchorPane>
+	</left>
+	<right>
+		<AnchorPane prefHeight="407.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+			<children>
+				<Label fx:id="labelTitle" layoutX="108.0" layoutY="44.0" text="Dashboard">
+					<effect>
+						<InnerShadow />
+					</effect>
+					<font>
+						<Font name="Verdana" size="14.0" />
+					</font>
+				</Label>
+				<Label fx:id="labelText" layoutX="14.0" layoutY="80.0" prefHeight="37.0" prefWidth="97.0" text="name maneger:" textFill="#403939">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+				<Label fx:id="labelText" layoutX="14.0" layoutY="128.0" prefHeight="37.0" prefWidth="74.0" text="name Park:" textFill="#403939">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+				<TextField fx:id="usernametxt" layoutX="129.0" layoutY="86.0" />
+				<TextField fx:id="parknametxt" layoutX="129.0" layoutY="134.0" />
+				<Button fx:id="normalButton" layoutX="52.0" layoutY="207.0" mnemonicParsing="false" onAction="#updateparametres" prefHeight="40.0" prefWidth="211.0" text="Update Parameters" />
+				<Button fx:id="normalButton" layoutX="52.0" layoutY="274.0" mnemonicParsing="false" onAction="#gopagereport1111" prefHeight="40.0" prefWidth="211.0" text="Reports" />
+				<Button fx:id="denyButton" cancelButton="true" contentDisplay="RIGHT" layoutX="52.0" layoutY="337.0" mnemonicParsing="false" onAction="#BackBtn" prefHeight="40.0" prefWidth="211.0" text="Logout" />
+			</children>
+		</AnchorPane>
+	</right>
+</BorderPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="workerGUI.dashboardWController">
+	<left>
+		<AnchorPane fx:id="backgroundGui" prefHeight="407.0" prefWidth="228.0" BorderPane.alignment="CENTER">
+			<children>
+				<Circle fill="#1f93ff00" layoutX="114.0" layoutY="200.0" radius="109.0" stroke="#706c6c" strokeType="INSIDE" />
+				<Label layoutX="46.0" layoutY="158.0" text="Go Nature" textFill="WHITE">
+					<font>
+						<Font name="Verdana Bold" size="24.0" />
+					</font>
+				</Label>
+				<Label layoutX="90.0" layoutY="212.0" text="Park" textFill="#f7f4f4">
+					<font>
+						<Font name="Verdana" size="22.0" />
+					</font>
+				</Label>
+				<Line endX="100.0" layoutX="114.0" layoutY="200.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0">
+					<effect>
+						<DropShadow />
+					</effect>
+				</Line>
+				<Circle fill="#e2e6e9" layoutX="46.0" layoutY="117.0" radius="18.0" stroke="#928d8d" strokeType="INSIDE" />
+				<Label layoutX="34.0" layoutY="345.0" text="Copyright (c).All Rights Reserved. " textFill="#f7f4f4">
+					<font>
+						<Font name="System Bold" size="10.0" />
+					</font>
+				</Label>
+			</children>
+		</AnchorPane>
+	</left>
+	<right>
+		<AnchorPane prefHeight="400.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+			<children>
+				<Label fx:id="labelTitle" layoutX="108.0" layoutY="57.0" text="Dashboard">
+					<effect>
+						<InnerShadow />
+					</effect>
+					<font>
+						<Font name="Verdana" size="14.0" />
+					</font>
+				</Label>
+				<Button fx:id="normalButton" layoutX="41.0" layoutY="125.0" mnemonicParsing="false" onAction="#enterVisitor" prefHeight="40.0" prefWidth="211.0" text="Enter Visitor" />
+				<Button fx:id="normalButton" layoutX="41.0" layoutY="220.0" mnemonicParsing="false" onAction="#exitVisitor" prefHeight="40.0" prefWidth="211.0" text="Exit Visitor" />
+				<Button fx:id="denyButton" layoutX="41.0" layoutY="313.0" mnemonicParsing="false" onAction="#logOutWorker" prefHeight="40.0" prefWidth="211.0" text="Logout" />
+			</children>
+		</AnchorPane>
+	</right>
+</BorderPane>

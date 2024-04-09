@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="CreportB" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="836.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parkmanagerGUI.Displayingausagereport">
+   <children>
+      <ScatterChart fx:id="scatterChart" layoutX="3.0" layoutY="3.0" prefHeight="553.0" prefWidth="943.0" title="Usage reports">
+        <xAxis>
+          <CategoryAxis fx:id="days" label="DAYS" prefHeight="40.0" prefWidth="829.0" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="hours" label="HOURS" prefHeight="516.0" prefWidth="63.0" side="LEFT" tickLabelGap="5.0" upperBound="19.0" />
+        </yAxis>
+      </ScatterChart>
+      <Button fx:id="denyButton" layoutX="3.0" layoutY="733.0" mnemonicParsing="false" onAction="#BackBtn" prefHeight="79.0" prefWidth="226.0" text="Back" />
+   </children>
+</AnchorPane>
