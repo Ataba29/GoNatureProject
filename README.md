@@ -29,6 +29,8 @@ this file contains the saved data of our users, (usernames and passwords and mor
 
 all the other folders add them to your IDE.
 
+JavaFX jar files are included in the `Utilities` folder, installing them and linking them in the build path of the `GNServer` and `GNClient` is necessary.
+
 ## Documentation
 
 We encourage the creation of JavaDoc files for the following folders:
@@ -51,7 +53,7 @@ To run the project the user has to run the [Server Main function](ServerUI.java)
 ## Contributing
 all contributions are not accepted since this is a college project that was created by the students and can be found in the Contact section. However, we encourage you to explore the project's codebase to learn and gain insights.
 If you're interested in contributing to similar open-source projects, we recommend exploring other repositories on GitHub and getting involved in the open-source community.
-Feel free to reach out to us if you have any questions or need further assistance.
+Feel free to reach out to us if you have any questions or need any more help.
 
 
 ## License
@@ -60,8 +62,7 @@ Feel free to reach out to us if you have any questions or need further assistanc
 
 ## Contact
 
-`GitHub`
-- Ahmad Ataba: [GitHub](https://github.com/Ataba29), [LinkedIn](https://www.linkedin.com/in/ahmad-ataba-08111a270/)
+- Ahmad Ataba: [GitHub](https://github.com/Ataba29) [LinkedIn](https://www.linkedin.com/in/ahmad-ataba-08111a270/)
 - Mohammad Khateeb: [GitHub](https://github.com/khalelmnsor) [LinkedIn]()
 - Rami Taha: [GitHub]() [LinkedIn](https://www.linkedin.com/in/rami-taha-234871273/)
 - Ibraheem Jramnh: [GitHub](https://github.com/ibraheemjr21) [LinkedIn](https://www.linkedin.com/in/ibraheem-jr-b9ba86278)
